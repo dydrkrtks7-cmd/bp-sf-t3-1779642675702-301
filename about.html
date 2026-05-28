@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta name="description" content="마포 프록시 보안 PBN 빌더 정보 페이지. PBN 보안의 모든 것, 마포 지점 상세 안내. 지금 전화 상담 010-6279-0862">
+    <meta name="keywords" content="PBN 빌더 정보,프록시 보안 마포,PBN 보안 솔루션,프록시 서비스 안내,마포 보안 전문,프록시 PBN">
+    <meta property="og:title" content="PBN 빌더 마포 프록시 보안 | 정보 & 안내">
+    <meta property="og:description" content="마포 프록시 보안 PBN 빌더의 상세 정보를 확인하세요. 지역 맞춤형 보안 솔루션. 010-6279-0862">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-info">
+    <title>정보 - 마포 프록시 보안 PBN 빌더</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        img, svg {
+            max-width: 100%;
+            display: block;
+        }
+        a {
+            color: #ff2a6d;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: #05d9e8;
+        }
+        /* TYPOGRAPHY */
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 0.9;
+            color: #ff2a6d;
+            text-shadow: 4px 4px 0 #0a0a0f, 6px 6px 0 #05d9e8;
+        }
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+            color: #05d9e8;
+            border-bottom: 4px solid #ff2a6d;
+            padding-bottom: 0.3em;
+            margin-bottom: 1em;
+        }
+        h3 {
+            font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+            font-weight: 700;
+            color: #e0e0e0;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        p, li {
+            font-size: 1.05rem;
+            color: #cccccc;
+            max-width: 70ch;
+            margin-bottom: 1em;
+        }
+        .accent-text {
+            font-family: 'JetBrains Mono', monospace;
+            color: #05d9e8;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            padding: 4rem 0;
+        }
+        .section-gap {
+            height: 2rem;
+        }
+        /* BORDERS & BRUTALISM */
+        .brutal-border {
+            border: 4px solid #ff2a6d;
+            box-shadow: 8px 8px 0 #05d9e8;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .brutal-border:hover {
+            transform: translate(-3px, -3px);
+            box-shadow: 12px 12px 0 #05d9e8;
+        }
+        .brutal-card {
+            background: #12121a;
+            border: 3px solid #2a2a3a;
+            padding: 2rem;
+            position: relative;
+        }
+        .brutal-card::before {
+            content: '';
+            position: absolute;
+            top: -3px; left: -3px;
+            width: 100%; height: 100%;
+            background: transparent;
+            pointer-events: none;
+        }
+        /* NAV */
+        nav {
+            background: #0a0a0f;
+            border-bottom: 3px solid #ff2a6d;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 0.5rem 0;
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .nav-logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: #05d9e8;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+        .nav-logo span {
+            color: #ff2a6d;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #e0e0e0;
+            letter-spacing: 0.05em;
+            padding: 0.5em 0.8em;
+            border: 2px solid transparent;
+            transition: 0.2s;
+        }
+        .nav-links a:hover {
+            border-color: #ff2a6d;
+            color: #05d9e8;
+        }
+        .nav-links a.active {
+            border: 2px solid #ff2a6d;
+            background: rgba(255,42,109,0.1);
+            color: #ff2a6d;
+        }
+        .tel-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #ff2a6d;
+            color: #0a0a0f !important;
+            padding: 0.5rem 1rem !important;
+            font-weight: 700;
+            border: 2px solid #ff2a6d !important;
+        }
+        .tel-link:hover {
+            background: #05d9e8;
+            border-color: #05d9e8 !important;
+            color: #0a0a0f !important;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0.5rem;
+            gap: 4px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: #e0e0e0;
+            transition: 0.3s;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                padding: 1rem 0;
+                background: #0a0a0f;
+                border-top: 2px solid #2a2a3a;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .nav-links a {
+                text-align: center;
+                padding: 0.8rem;
+            }
+            .tel-link {
+                justify-content: center;
+            }
+        }
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a0a1f 100%);
+            padding: 6rem 0 4rem;
+            border-bottom: 3px solid #ff2a6d;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: 'PBN // INFO';
+            position: absolute;
+            right: -5%; top: 20%;
+            font-size: clamp(10rem, 25vw, 20rem);
+            font-weight: 700;
+            color: rgba(255,42,109,0.03);
+            white-space: nowrap;
+            pointer-events: none;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        .hero-text p {
+            font-size: 1.2rem;
+            color: #b0b0c0;
+        }
+        .hero-cta {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .hero-cta a {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 3px solid;
+            transition: 0.2s;
+        }
+        .btn-primary {
+            background: #ff2a6d;
+            border-color: #ff2a6d !important;
+            color: #0a0a0f;
+        }
+        .btn-primary:hover {
+            background: transparent;
+            color: #ff2a6d !important;
+        }
+        .btn-outline {
+            border-color: #05d9e8 !important;
+            color: #05d9e8;
+            background: transparent;
+        }
+        .btn-outline:hover {
+            background: #05d9e8;
+            color: #0a0a0f !important;
+        }
+        /* GRID CARDS */
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .grid-3col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        @media (max-width: 768px) {
+            .grid-2col, .grid-3col {
+                grid-template-columns: 1fr;
+            }
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #2a2a3a;
+        }
+        .faq-question {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #05d9e8;
+            font-size: 1.1rem;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #ff2a6d;
+            transition: transform 0.3s;
+        }
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+        .faq-answer {
+            margin-top: 0.8rem;
+            display: none;
+        }
+        .faq-answer.show {
+            display: block;
+        }
+        /* FOOTER */
+        footer {
+            background: #0a0a0f;
+            border-top: 3px solid #ff2a6d;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        footer p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        footer .tel-link-big {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #05d9e8;
+            margin: 1rem 0;
+        }
+        /* RESPONSIVE HELPERS */
+        .text-center-mobile { text-align: center; }
+        @media (max-width: 768px) {
+            .text-center-mobile { text-align: left; }
+        }
+        /* LOCAL TOUCH */
+        .local-badge {
+            display: inline-block;
+            background: #2a0a1f;
+            border-left: 4px solid #ff2a6d;
+            padding: 0.5rem 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #05d9e8;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="nav-logo"><span>⌂</span> PBN·마포</a>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('open');">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="about.html">서비스</a></li>
+                <li><a href="info.html" class="active">정보</a></li>
+                <li><a href="contact.html">연락처</a></li>
+                <li><a href="tel:01062790862" class="tel-link">☎ 010-6279-0862</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="local-badge">📍 마포구 · 홍대입구 · 합정</div>
+                    <h1>정보<br>보안의 핵심</h1>
+                    <p class="accent-text">// PBN 빌더 마포 프록시 보안</p>
+                    <p>여긴 마포야. 프록시 기반 보안이 뭔지 궁금하다면? 너만의 PBN을 구축해서 진짜 보안을 느껴봐. 거친 동네일수록 단단한 방패가 필요하잖아?</p>
+                    <div class="hero-cta">
+                        <a href="tel:01062790862" class="btn-primary">☎ 지금 전화</a>
+                        <a href="#faq" class="btn-outline">자주 묻는 질문</a>
+                    </div>
+                </div>
+                <div style="background: #12121a; border: 4px solid #05d9e8; padding: 2rem; text-align: center; box-shadow: 8px 8px 0 #ff2a6d;">
+                    <p style="font-family:'JetBrains Mono'; font-size: 3rem; color:#ff2a6d;">PBN</p>
+                    <p style="color:#05d9e8; font-weight:700;">프록시 기반 네트워크</p>
+                    <p style="color:#888; font-size:0.9rem;">마포에서 검증된 보안</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-details">
+        <div class="container">
+            <h2>📍 왜 마포 PBN인가?</h2>
+            <div class="grid-2col">
+                <div class="brutal-card">
+                    <h3>지역 최적화</h3>
+                    <p>마포구 홍대·합정 일대는 유동 인구가 많고 다양한 네트워크가 혼재돼. 우리 PBN 프
+</body>
+</html>
